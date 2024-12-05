@@ -1,4 +1,4 @@
-namespace InveonBootcamp.SRP.GoodExample.Services.Orders;
+namespace InveonBootcamp.SRP.GoodExample;
 
 public class ShippingService
 {

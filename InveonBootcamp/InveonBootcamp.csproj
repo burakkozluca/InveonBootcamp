@@ -8,7 +8,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="OCP\" />
+      <Folder Include="ISP\BadExample\" />
+      <Folder Include="ISP\GoodExample\" />
+      <Folder Include="LSP\BadExample\" />
     </ItemGroup>
 
 </Project>
