@@ -25,10 +25,8 @@ Console.WriteLine($"Books Price after Discount: {booksPrice}");
 var otherPrice = calculator.CalculateDiscount("Clothing", 300);
 Console.WriteLine($"Clothing Price after Discount: {otherPrice}");*/
 
+Payment payment1 = new CreditCardPayment();
+payment1.ProcessPayment(900);
 
-
-Animal dog = new Dog();
-dog.Speak();
-
-Animal cat = new Cat();
-cat.Speak();
+Payment payment2 = new BitcoinPayment();
+payment2.ProcessPayment(1200);
