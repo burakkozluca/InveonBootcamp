@@ -8,9 +8,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="DIP\" />
-      <Folder Include="ISP\BadExample\" />
-      <Folder Include="ISP\GoodExample\" />
       <Folder Include="SolidPrinciples\" />
     </ItemGroup>
 
