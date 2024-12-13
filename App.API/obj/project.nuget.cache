@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sv9ARLXIAKU=",
+  "dgSpecHash": "LT3k9Ety88Q=",
   "success": true,
-  "projectFilePath": "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/App.API.csproj",
+  "projectFilePath": "/Users/burakkozluca/RiderProjects/inveon/App.API/App.API.csproj",
   "expectedPackageFiles": [
     "/Users/burakkozluca/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/burakkozluca/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",

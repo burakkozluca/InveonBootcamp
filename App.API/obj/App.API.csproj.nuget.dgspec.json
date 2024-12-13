@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/App.API.csproj": {}
+    "/Users/burakkozluca/RiderProjects/inveon/App.API/App.API.csproj": {}
   },
   "projects": {
-    "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/App.API.csproj": {
+    "/Users/burakkozluca/RiderProjects/inveon/App.API/App.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/App.API.csproj",
+        "projectUniqueName": "/Users/burakkozluca/RiderProjects/inveon/App.API/App.API.csproj",
         "projectName": "App.API",
-        "projectPath": "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/App.API.csproj",
+        "projectPath": "/Users/burakkozluca/RiderProjects/inveon/App.API/App.API.csproj",
         "packagesPath": "/Users/burakkozluca/.nuget/packages/",
-        "outputPath": "/Users/burakkozluca/RiderProjects/InveonBootcamp/App.API/obj/",
+        "outputPath": "/Users/burakkozluca/RiderProjects/inveon/App.API/obj/",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

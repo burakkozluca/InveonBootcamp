@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveonBootcamp", "InveonBootcamp\InveonBootcamp.csproj", "{4224889A-5193-4272-9521-25D968FCBD40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestPractise.API", "BestPractise.API\BestPractise.API.csproj", "{AF46F1D7-C45D-4208-94DA-87E1216EDF4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.API", "App.API\App.API.csproj", "{652D1963-21BB-4219-88C1-7B1262E0B638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4224889A-5193-4272-9521-25D968FCBD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4224889A-5193-4272-9521-25D968FCBD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4224889A-5193-4272-9521-25D968FCBD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4224889A-5193-4272-9521-25D968FCBD40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF46F1D7-C45D-4208-94DA-87E1216EDF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF46F1D7-C45D-4208-94DA-87E1216EDF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF46F1D7-C45D-4208-94DA-87E1216EDF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF46F1D7-C45D-4208-94DA-87E1216EDF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652D1963-21BB-4219-88C1-7B1262E0B638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652D1963-21BB-4219-88C1-7B1262E0B638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652D1963-21BB-4219-88C1-7B1262E0B638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652D1963-21BB-4219-88C1-7B1262E0B638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
