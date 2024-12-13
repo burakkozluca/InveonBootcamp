@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "8CnmlyNuB3WETiFIGEOlcnTfuOR+fX1Je9vKWqlYiHk=",
+  "Source": "InveonBootcamp.API",
+  "BasePath": "_content/InveonBootcamp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
