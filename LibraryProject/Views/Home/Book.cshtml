@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "Books";
+}
+@model IEnumerable<LibraryProject.Repositories.Books.Book>
+<h1>@ViewData["Title"]</h1>
+
+<h2>Book List</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Publication Year</th>
+        <th>ISBN</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var book in Model)
+    {
+        <tr>
+            <td>@book.Title</td>
+            <td>@book.Author</td>
+            <td>@book.PublicationYear</td>
+            <td>@book.Isbn</td>
+        </tr>
+    }
+    </tbody>
+</table>
