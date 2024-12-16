@@ -2,6 +2,7 @@
     ViewData["Title"] = "Books";
 }
 @model IEnumerable<LibraryProject.Repositories.Books.Book>
+
 <h1>@ViewData["Title"]</h1>
 
 <h2>Book List</h2>
@@ -19,7 +20,9 @@
     @foreach (var book in Model)
     {
         <tr>
-            <td>@book.Title</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@book.Id">@book.Title</a>
+            </td>
             <td>@book.Author</td>
             <td>@book.PublicationYear</td>
             <td>@book.Isbn</td>

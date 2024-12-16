@@ -1,0 +1,22 @@
+@model LibraryProject.Models.AssignRoleViewModel
+@{
+    ViewData["Title"] = "Assign Role to User";
+}
+
+<h2>Assign Role to User</h2>
+
+<form asp-action="AddUserToRole">
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label"></label>
+        <input asp-for="UserId" class="form-control" />
+        <span asp-validation-for="UserId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="RoleName" class="control-label"></label>
+        <input asp-for="RoleName" class="form-control" />
+        <span asp-validation-for="RoleName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Assign" class="btn btn-primary" />
+    </div>
+</form>

@@ -1,4 +1,6 @@
+using LibraryProject.Migrations;
 using LibraryProject.Services.Books;
+using Microsoft.AspNetCore.Identity;
 
 namespace LibraryProject.Services.Extensions;
 

@@ -1,0 +1,43 @@
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<h2>Admin Panel</h2>
+
+<h3>User Operations</h3>
+<ul>
+    <li>
+        <a href="@Url.Action("Create", "User")">➕ Kullanıcı Ekleme (Create)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("ListUsers", "User")">📄 Kullanıcı Bilgilerini Görüntüleme (Read)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("Update", "User")">✏ Kullanıcı Bilgilerini Güncelleme (Update)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("Delete", "User")">🗑 Kullanıcı Silme (Delete)</a>
+    </li>
+</ul>
+
+<h3>Role Operations</h3>
+<ul>
+    <li>
+        <a href="@Url.Action("Create", "Role")">➕ Rol Ekleme (Create Role)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("ListRoles", "Role")">📄 Rolleri Listeleme (List Roles)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("UpdateRole", "Role")">✏ Rol Güncelleme (Update Role)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("DeleteRole", "Role")">🗑 Rol Silme (Delete Role)</a>
+    </li>
+    <li>
+        <a href="@Url.Action("AddUserToRole", "Role")">🎭 Kullanıcıya Rol Atama</a>
+    </li>
+    <li>
+        <a href="@Url.Action("RemoveUserFromRole", "Role")">🎭 Kullanıcıya Rol Atama</a>
+    </li>
+</ul>

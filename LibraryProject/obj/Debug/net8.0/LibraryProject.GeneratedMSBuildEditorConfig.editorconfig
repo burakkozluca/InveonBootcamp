@@ -20,8 +20,16 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Home/Book.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Cb29rLmNzaHRtbA==
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Admin/AdminPanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vQWRtaW5QYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Books/Book.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va3MvQm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Home/Index.cshtml]
@@ -32,12 +40,60 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/AddUserToRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9BZGRVc2VyVG9Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9EZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/ListRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9MaXN0Um9sZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/RemoveUserFromRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9SZW1vdmVVc2VyRnJvbVJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Role/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9VcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Shared/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Shared/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1JlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/User/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/User/ListUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9MaXN0VXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/User/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9VcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/burakkozluca/RiderProjects/inveon/LibraryProject/Views/_ViewImports.cshtml]

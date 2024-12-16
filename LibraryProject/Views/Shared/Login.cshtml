@@ -1,0 +1,8 @@
+@model LoginViewModel
+
+<form asp-action="Login" method="post">
+    <input asp-for="Email" placeholder="Email" />
+    <input asp-for="Password" type="password" placeholder="Password" />
+    <button type="submit">Login</button>
+</form>
+<p>Hesap Oluştur <a asp-action="Register" asp-controller="User">Kayıt Ol</a></p>

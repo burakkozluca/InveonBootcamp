@@ -2,32 +2,28 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using LibraryProject.Models;
 using LibraryProject.Repositories.Books;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LibraryProject.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly IBookRepository _bookRepository;
 
-    public HomeController(ILogger<HomeController> logger,IBookRepository bookRepository)
+    public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
-        _bookRepository = bookRepository;
     }
-
+    
     public IActionResult Index()
     {
+        if (!User.Identity.IsAuthenticated)
+        {
+            // Giriş yapılmamışsa login sayfasına yönlendir
+            return RedirectToAction("Login", "User");
+        }
         return View();
     }
-    
-    public IActionResult Book()
-    {
-        var books = _bookRepository.GetAll();
-        return View(books);
-    }
-    
-
     public IActionResult Privacy()
     {
         return View();
